@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">     
+        
+        <meta charset="utf-8">
+  <title>Favorite Movies</title>
+  <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+  </style>
+    </head>
+
+
+    <body>
+            <h1>Gif Search</h1>
+
+            <!-- Rendered Buttons will get Dumped Here  -->
+            <div id="buttons-view"></div>
+
+            <!--This is the search text box that the user types into-->
+            <input id = "searchtext" type="text" placeholder="Search...">
+            <!--This is the submit button-->
+            <button id="searchgifs" onclick="getData()" type="submit">Add Gifs!</button>
+
+
+
+<!--Gifs are placed here-->
+<div class="inner"></div>
+
+
+<!--JQuery-->
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--Javascript-->
+<script src="assets/java.js"></script>
+    </body>
+</html>
